@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),
    # install_requires=['tkinter','argparse'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 5 - Production Stable",
         'Intended Audience :: Science/Research',
         'Topic :: Scientific/Engineering :: Astronomy'],
     package_data={'postflash':['postflash/postflash.csv']})
