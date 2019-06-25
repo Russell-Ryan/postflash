@@ -1,5 +1,5 @@
 from setuptools import setup,find_packages,Extension
-import numpy.distutils.misc_util
+#import numpy.distutils.misc_util
 import os
 import postflash
 
@@ -10,7 +10,7 @@ setup(
     description=postflash.__description__,
     entry_points={'console_scripts':['postflash=postflash.postflash:main']},
     packages=find_packages(),
-   # install_requires=['tkinter','argparse'],
+    install_requires=['tkinter','argparse'],
     classifiers=[
         "Development Status :: 5 - Production Stable",
         'Intended Audience :: Science/Research',

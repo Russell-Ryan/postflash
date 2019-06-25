@@ -1,6 +1,7 @@
-# postflash
+# postflash: A python GUI to estimate the postflash for WFC3/UVIS
 
-A python GUI to estimate the postflash for WFC3/UVIS
+![postflash](etc/postflash.png)
+
 
 ## Installation
 ```
